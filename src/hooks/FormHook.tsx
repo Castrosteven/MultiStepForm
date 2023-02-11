@@ -4,13 +4,7 @@ import { StepFour, StepOne, StepThree, StepTwo, ThankYou } from "../components";
 import Data from "../data.json";
 export const FormHook = () => {
   const { plans, add_ons } = Data as RootObject;
-  const steps = [
-    <StepOne />,
-    <StepTwo />,
-    <StepThree />,
-    <StepFour />,
-    <ThankYou />,
-  ];
+
   const [currentStep, setCurrentStep] = useState(0);
   const initialStateInfo = {
     name: "",
@@ -104,7 +98,6 @@ export const FormHook = () => {
     AddOns,
     info,
     monthYear,
-    steps,
     currentStep,
     setCurrentStep,
   };

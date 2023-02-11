@@ -16,7 +16,7 @@ interface Context {
     price: number;
     description: string;
   }[];
-  steps: JSX.Element[];
+
   currentStep: number;
   setCurrentStep: React.Dispatch<React.SetStateAction<number>>;
 }
@@ -31,7 +31,6 @@ export const AppContext = ({ children }: { children: ReactNode }) => {
     AddOns,
     currentStep,
     setCurrentStep,
-    steps,
   } = FormHook();
   return (
     <Context.Provider
@@ -44,7 +43,6 @@ export const AppContext = ({ children }: { children: ReactNode }) => {
         AddOns,
         currentStep,
         setCurrentStep,
-        steps,
       }}
     >
       {children}
