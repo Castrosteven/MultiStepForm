@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'UbuntuNormal';
+    src:url('./fonts/Ubuntu-Regular.ttf'),format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'UbuntuMedium';
+    src: url('./fonts/Ubuntu-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'UbuntuBold';
+    src: url('./fonts/Ubuntu-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

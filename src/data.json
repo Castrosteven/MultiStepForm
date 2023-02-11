@@ -1,0 +1,42 @@
+{
+  "plans": [
+    {
+      "plan_name": "Arcade",
+      "monthly_price": 9,
+      "yearly_price": 90,
+      "icon": "./assets/icon-arcade.svg"
+    },
+    {
+      "plan_name": "Advanced",
+      "monthly_price": 12,
+      "yearly_price": 120,
+      "icon": "./assets/icon-advanced.svg"
+    },
+    {
+      "plan_name": "Pro",
+      "monthly_price": 15,
+      "yearly_price": 150,
+      "icon": "./assets/icon-pro.svg"
+    }
+  ],
+  "add_ons": [
+    {
+      "add_on_name": "Online Service",
+      "add_on_description": "Access to multiplayer games",
+      "monthly_price": 1,
+      "yearly_price": 10
+    },
+    {
+      "add_on_name": "Larger Storage",
+      "add_on_description": "Extra 1TB of cloud save",
+      "monthly_price": 2,
+      "yearly_price": 20
+    },
+    {
+      "add_on_name": "Customizable profile",
+      "add_on_description": "Access to multiplayer games",
+      "monthly_price": 2,
+      "yearly_price": 20
+    }
+  ]
+}
