@@ -48,7 +48,7 @@ export const StepThree = () => {
               key={index}
               className={` hover:bg-lightBlue text-primaryBlue  justify-between flex ${
                 isChecked(addon) ? "bg-lightBlue border-purple-600" : "bg-white"
-              }  hover:border-purple-400 w-full border-2 border-gray-200 h-20 rounded-md flex items-center justify-start p-10`}
+              }  hover:border-purple-400 w-full border-2 border-gray-200 h-auto rounded-md flex items-center justify-start p-2`}
             >
               <div className="flex items-center gap-5  ">
                 <input
